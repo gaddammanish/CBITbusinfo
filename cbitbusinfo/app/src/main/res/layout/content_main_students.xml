@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main_students"
+    tools:context="com.example.gadda_000.newproj.MainStudentsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Instructions For Students"/>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="450dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="1. Must possess Identity Card and show the same to the faculty incharges / driver on demand.\n\n2. Ragging and indecent behaviour is strictly prohibited.
+\n\n3. To be in their respective bus stops at the scheduled time, chasing or forcing the driver to stop the
+bus is not permitted.
+\n\n4. Activating loudspeakers of cell phones / I pods , clapping, whistling, shouting etc. are
+prohibited.
+\n\n5. Should not keep hands / any other parts of the body out of windows.
+\n\n6. Boys and girls must occupy separate seats.
+\n\n7. Arguing with faculty incharges / drivers leads to the cancellation of the transport facility. If any
+suggestions/complaints, they must give in written to Dr. B. Sreenivasa Reddy, Associate
+Professor of Physics and the Students’ Transport I/C, CBIT only.
+\n\n8. Any damage made to the seats, glasses or any other components of the bus (including writing
+with pens) will be charged double.
+\n\n9. Must leave the bus immediately after reaching the college and are permitted to board again after
+4.00 PM only.
+\n\n10. Should not leave their belongings (Bags, Books, drafters etc.) in the buses.
+\n\n11.In case of breakdown of the bus, student must follow the instructions of the incharge/driver or
+should make their own arrangement if alternative arrangement is not provided.
+"/>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CbitBusInfo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="complaint">Complaint</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main3">BusNoDetails</string>
+    <string name="title_activity_main2">BusPassBy</string>
+
+
+
+    <string name="title_activity_main_contact">MainContactActivity</string>
+    <string name="title_activity_main_parents">Instructions</string>
+    <string name="title_activity_main_students">Instructions</string>
+    <string name="title_activity_main_fee">MainFeeActivity</string>
+    <string name="title_activity_main_maps">MainMapsActivity</string>
+    <string name="title_activity_main_fee1">FeeStructure</string>
+    <string name="title_activity_splash_screen">splash_screen</string>
+    <string name="title_activity_main_email">Complaint</string>
+    <string name="title_activity_main_busno">BusInfo</string>
+    <string name="title_activity_main_view">MainViewActivity</string>
+</resources>

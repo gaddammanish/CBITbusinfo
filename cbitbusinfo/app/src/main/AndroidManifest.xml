@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gadda_000.newproj" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bus"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:icon="@mipmap/bus"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gadda_000.newproj.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainContactActivity"
+            android:label="ContactDetails"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gadda_000.newproj.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainParentsActivity"
+            android:label="@string/title_activity_main_parents"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gadda_000.newproj.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainStudentsActivity"
+            android:label="@string/title_activity_main_students"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gadda_000.newproj.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainFee1Activity"
+            android:label="@string/title_activity_main_fee1"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gadda_000.newproj.MainActivity" />
+        </activity>
+        <activity
+            android:name=".splash_screen"
+            android:icon="@mipmap/bus"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainEmailActivity"
+            android:label="@string/title_activity_main_email"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gadda_000.newproj.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainBusnoActivity"
+            android:label="@string/title_activity_main_busno"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gadda_000.newproj.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainViewActivity"
+            android:label="@string/title_activity_main_view"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gadda_000.newproj.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

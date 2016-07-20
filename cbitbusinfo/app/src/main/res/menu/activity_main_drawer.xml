@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_busno" android:icon="@android:drawable/ic_menu_search"
+            android:title="Search by bus number" />
+        <item android:id="@+id/contact" android:icon="@android:drawable/ic_menu_call"
+            android:title="Contact" />
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item android:id="@+id/nav_complaint" android:icon="@android:drawable/ic_menu_help"
+            android:title="Complaint"/>
+        <item android:id="@+id/nav_application" android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Application and Fee Info"/>
+
+    </group>
+
+
+    <item android:title="Instructions">
+        <menu>
+            <item android:id="@+id/nav_parentinfo" android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Parents"/>
+            <item android:id="@+id/nav_studentsinfo" android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Students"/>
+        </menu>
+    </item>
+
+
+
+    <item android:title="Locaion">
+
+        <menu>
+            <item android:id="@+id/nav_loc" android:icon="@android:drawable/ic_menu_mylocation"
+                android:title="CBIT"/>
+        </menu>
+    </item>
+
+</menu>
